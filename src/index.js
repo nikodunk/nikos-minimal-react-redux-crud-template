@@ -14,7 +14,7 @@ const store = configureStore();
 
 const App = () => (
   <div>
-    <h1>Welcome to a minimal React-Redux-Router-Thunk App for accessing APIs</h1>
+    <h1>Welcome to a minimal React-Redux-Thunk (with Routing) App with API setup</h1>
     <nav><Link to="/">Screen 1</Link> | <Link to="/items">Screen 2</Link></nav>
     <br /><br /><br />
     <Switch>
